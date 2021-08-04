@@ -4,6 +4,7 @@
   "description": "Ejercicio de Login para Skill Factory de Avalith",
   "main": "index.js",
   "scripts": {
+    "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,11 @@
   },
   "homepage": "https://github.com/bukev/avalith-skill-login#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
