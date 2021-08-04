@@ -23,7 +23,7 @@ app.post('/login', async (req, res) => {
     
     try {
         if (await bcrypt.compare(req.body.password, user.password) && req.body.username === user.username) {
-            res.send('Logged in! ' + accessToken)
+            res.json({"message": 'Logged in!', "token": accessToken})
         } else {
             res.send('Invalid Credentials.')
         }

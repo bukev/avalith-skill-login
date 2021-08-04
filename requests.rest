@@ -1,5 +1,5 @@
 GET http://localhost:3001/greetings
-# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiIkMmIkMTAkT2FEQ3JKVm1wWkFhN2VaYUFuRktndUlXWTlUdGszVk8wU3dJSUlFSkdmSElxdFBXdXZUZi4iLCJpYXQiOjE2MjgwMzk5NDN9.qWN7k-2Y9QeoJ3IuVCk9Q_qqDEVk3z3ZheCLj1N4m4U
+Authorization: Bearer [TOKEN]
 
 ###
 
